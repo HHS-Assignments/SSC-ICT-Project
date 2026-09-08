@@ -1,0 +1,38 @@
+services:
+  api:
+    image: ssc_ict_self_service_portal-api:local
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      network: host
+    container_name: ssc-ict-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - api_data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=sqlite:////app/data/ssc_ict.db
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health').read()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  frontend:
+    image: ssc_ict_self_service_portal-frontend:local
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      network: host
+    container_name: ssc-ict-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  api_data:

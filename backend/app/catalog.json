@@ -1,0 +1,309 @@
+[
+  {
+    "category": "basis-plus-software",
+    "name": "Microsoft Visio Standaard",
+    "description": "Met Microsoft Visio maak je professionele diagrammen, stroomdiagrammen, organogrammen, plattegronden en technische ontwerpen.",
+    "tariff_cents": 22500,
+    "unit": "Gebruiker",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Basis+ Software"
+    ]
+  },
+  {
+    "category": "basis-plus-software",
+    "name": "Microsoft Project Standaard",
+    "description": "Microsoft Project ondersteunt projectmanagers en portfoliomanagers bij het maken van planningen.",
+    "tariff_cents": 40800,
+    "unit": "Gebruiker",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Basis+ Software"
+    ]
+  },
+  {
+    "category": "basis-plus-software",
+    "name": "SPSS",
+    "description": "IBM SPSS genereert inzichten uit data en ondersteunt predictive analytics voor kansen, efficiency en risicobeperking.",
+    "tariff_cents": 157600,
+    "unit": "Gebruiker",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Basis+ Software"
+    ]
+  },
+  {
+    "category": "basis-plus-software",
+    "name": "Adobe Photoshop",
+    "description": "Creëer en verbeter foto’s, illustraties, 3D-artwork, websites, mobiele apps en video.",
+    "tariff_cents": 59000,
+    "unit": "Gebruiker",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Basis+ Software"
+    ]
+  },
+  {
+    "category": "basis-plus-software",
+    "name": "Mindjet Manager",
+    "description": "Mindjet MindManager maakt mindmaps, flowcharts, kaarten, tijdlijnen en diagrammen.",
+    "tariff_cents": 18400,
+    "unit": "Gebruiker",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Basis+ Software"
+    ]
+  },
+  {
+    "category": "klantspecifieke-software",
+    "name": "Klantspecifieke Software",
+    "description": "Aanvragen van software specifiek voor één klant, uit een lijst beschikbare software.",
+    "tariff_cents": 30400,
+    "unit": "Stuks",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Klantspecifieke Software"
+    ]
+  },
+  {
+    "category": "samenwerken",
+    "name": "Teams",
+    "description": "Een Microsoft Teams team voor samenwerking rond een gemeenschappelijk doel. De teamnaam moet uniek zijn.",
+    "tariff_cents": 30400,
+    "unit": "1",
+    "delivery_time": null,
+    "unique_name_required": true,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Unieke teamnaam verplicht",
+      "Maximaal 1000 personen"
+    ]
+  },
+  {
+    "category": "mail",
+    "name": "Gedeelde mailbox / Dienstpostbus",
+    "description": "Niet-persoonsgebonden mailbox voor communicatie met een specifieke doelgroep of afdeling.",
+    "tariff_cents": 20400,
+    "unit": "Stuks",
+    "delivery_time": null,
+    "unique_name_required": true,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Unieke mailboxnaam verplicht"
+    ]
+  },
+  {
+    "category": "mail",
+    "name": "Distributielijst",
+    "description": "Distributiegroep voor het verzenden of doorsturen van e-mail naar meerdere personen.",
+    "tariff_cents": 10200,
+    "unit": "Stuks",
+    "delivery_time": null,
+    "unique_name_required": true,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Unieke distributielijstnaam verplicht"
+    ]
+  },
+  {
+    "category": "mail",
+    "name": "Emailalias",
+    "description": "Doorstuuradres dat inkomende e-mails naar de primaire inbox doorstuurt.",
+    "tariff_cents": 5200,
+    "unit": "Stuks",
+    "delivery_time": null,
+    "unique_name_required": true,
+    "requires_dwo_basis": false,
+    "requires_agreement": false,
+    "requirements": [
+      "Unieke emailalias verplicht"
+    ]
+  },
+  {
+    "category": "werkplek",
+    "name": "Digitale Werkomgeving Online Ontwikkel/Test",
+    "description": "Persoonlijke virtuele ontwikkelwerkplek in eigen datacenter voor test- en ontwikkelomgevingen.",
+    "tariff_cents": 227600,
+    "unit": "Gebruiker",
+    "delivery_time": "4 uur",
+    "unique_name_required": false,
+    "requires_dwo_basis": true,
+    "requires_agreement": false,
+    "requirements": [
+      "Alleen in combinatie met DWO Basis",
+      "Omgeving: Test of Ontwikkel"
+    ]
+  },
+  {
+    "category": "werkplek",
+    "name": "Digitale Werkomgeving Cloud Ontwikkel/Test",
+    "description": "Persoonlijke virtuele ontwikkelwerkplek in cloud datacenter voor test- en ontwikkelomgevingen.",
+    "tariff_cents": 227600,
+    "unit": "Gebruiker",
+    "delivery_time": "4 uur",
+    "unique_name_required": false,
+    "requires_dwo_basis": true,
+    "requires_agreement": false,
+    "requirements": [
+      "Alleen in combinatie met DWO Basis",
+      "Omgeving: Test of Ontwikkel"
+    ]
+  },
+  {
+    "category": "werkplek",
+    "name": "Digitale Werkomgeving Online Productie/Acceptatie",
+    "description": "Virtuele werkplek vanuit het rijksdatacenter voor productie- en acceptatieomgevingen.",
+    "tariff_cents": 100500,
+    "unit": "Gebruiker",
+    "delivery_time": null,
+    "unique_name_required": false,
+    "requires_dwo_basis": true,
+    "requires_agreement": false,
+    "requirements": [
+      "Alleen in combinatie met DWO Basis",
+      "Omgeving: Productie of Acceptatie"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "Managed Laptop standaard",
+    "description": "Laptop in bruikleen zonder touch-scherm, beschikbaar in klein circa 13 inch en groot circa 15 inch.",
+    "tariff_cents": 118000,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "Managed Laptop premium",
+    "description": "Lichte snelle convertible laptop met touch interface, activepen support en lange batterijduur.",
+    "tariff_cents": 118700,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "DWR 2.0 Managed Laptop standaard",
+    "description": "DWR 2.0 laptop in bruikleen zonder touch-scherm, beschikbaar in klein circa 13 inch en groot circa 15 inch.",
+    "tariff_cents": 118000,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "DWR 2.0 Managed Laptop premium",
+    "description": "DWR 2.0 premium convertible laptop met touch interface en activepen support.",
+    "tariff_cents": 118700,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen indien op voorraad",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "DWR 2.0 Macbook standaard",
+    "description": "MacBook Air in bruikleen met volledige digitale werkomgeving en offline MS Office functionaliteit.",
+    "tariff_cents": 118000,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "Managed Smartphone standaard",
+    "description": "iOS of Android smartphone inclusief DWO Light en simkaart met spraak- en data-abonnement fair use.",
+    "tariff_cents": 44200,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "hardware",
+    "name": "Managed Smartphone premium",
+    "description": "High-end smartphone inclusief DWO Light en simkaart met spraak- en data-abonnement fair use.",
+    "tariff_cents": 65100,
+    "unit": "Stuks",
+    "delivery_time": "5 werkdagen",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  },
+  {
+    "category": "accessoires",
+    "name": "Accessoires & Randapparatuur",
+    "description": "Diverse accessoires en randapparatuur zoals muis, toetsenbord, monitoren, dockingstation, laptoptas en printers.",
+    "tariff_cents": null,
+    "unit": "-",
+    "delivery_time": "5 werkdagen indien op voorraad",
+    "unique_name_required": false,
+    "requires_dwo_basis": false,
+    "requires_agreement": true,
+    "requirements": [
+      "Prijs afhankelijk per apparaat",
+      "Levering thuis of kantoor op afspraak",
+      "Gebruikersovereenkomst verplicht"
+    ]
+  }
+]
